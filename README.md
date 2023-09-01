@@ -8,11 +8,11 @@ This project showcases a back-end system built with RESTful APIs. It serves as a
 
 ## Technologies Used
 
-- [Express]
-- [ejs]
-- [uuid]
-- [method-override]
-- [path]
+- Express
+- ejs
+- uuid
+- method-override
+- path
 
 ## Features
 
@@ -32,9 +32,9 @@ To get started with this project, follow these steps:
 ## API Endpoints
 Here are some of the main API endpoints available in this project:
 
-- `GET /posts`: [to get all posts]
-- `POST /posts`: [to post a quora post]
-- `PATCH /posts/:id/edit`: [to update a specific quora post]
-- `DELETE /posts/:id`: [to delete]
+- `GET /posts`: these route is for main page.
+- `POST /posts`: to post a quora post.
+- `PATCH /posts/:id/edit`: to update a specific quora post.
+- `DELETE /posts/:id`: to delete a specific post.
 
 
