@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/style.css">
+
+    <style>
+        body {
+            background-color: #34495e;
+            color: aliceblue;
+        }
+
+        h1 {
+            color: #e4f1fe;
+            text-align: center;
+            margin: 1rem;
+        }
+
+        .id {
+            color: #8dc6ff;
+            position: relative;
+            left: 1rem;
+        }
+
+        .user {
+            color: #e4f1fe;
+            position: relative;
+            left: 1rem;
+        }
+
+        .content {
+            height: 10rem;
+            border: #e4f1fe 1px solid;
+            margin: 1rem;
+            padding: 0.5rem;
+        }
+        .content-text h5{
+           margin: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-lg">
+        <h1>Account details</h1>
+        <p class="id">User Id : <%=post.id%>
+        </p>
+        <div class="user">User Name : @<h4 style="display: inline-block;">
+                <%=post.username%>
+            </h4>
+        </div>
+        <div class="content-text">
+            <h5>All Posts :- </h5>
+        </div>
+        <div class="content">
+
+            <h6>
+                <%=post.content%>
+            </h6>
+        </div>
+    </div>
+</body>
+
+</html>
